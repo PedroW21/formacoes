@@ -1,4 +1,5 @@
 const livros = require('./listaLivros');
+const trocar = require('./trocarPosicoes');
 
 function insertionSort(lista)
 {
@@ -8,12 +9,7 @@ function insertionSort(lista)
 
         while(itemSendoAnalisado > 0 && lista[itemSendoAnalisado].preco < lista[itemSendoAnalisado - 1].preco)
         {
-            let itemAtual = lista[itemSendoAnalisado];
-            let itemAnterior = lista[itemSendoAnalisado -1];
-
-            lista[itemSendoAnalisado] = itemAnterior;
-            lista[itemSendoAnalisado - 1] = itemAtual;
-
+            trocar(lista, itemSendoAnalisado);
             itemSendoAnalisado--;
         }
     }
