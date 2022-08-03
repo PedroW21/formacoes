@@ -1,3 +1,5 @@
+// Merge Sort
+
 const listaLivros = require('./array');
 
 function mergeSort(array, nivelAninhamento = 0) {
