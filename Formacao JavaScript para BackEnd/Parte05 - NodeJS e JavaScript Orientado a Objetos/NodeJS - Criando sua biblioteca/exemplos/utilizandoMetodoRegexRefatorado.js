@@ -6,8 +6,16 @@ const texto = "A interface File provê informações sobre arquivos e permite ao
 function extrairLinks(texto)
 {
     const regex = /\[([^\]]*)\]\((https?:\/\/[^$#\s].[^\s]*)\)/gm;
-    const linksExtraidos = texto.match(regex); // retorna um array com os elementos encontrados pela regex | PS: Metodo de string, não de regex
-    console.log(linksExtraidos);
+
+    const arrayResultados = [];
+    let temp;
+
+    while((temp = regex.exec(texto)) !== null) // quando a variavel temp for vazia (ou seja, não ter mais atribuições da regex.exec (fim das ocorrencias))
+    {
+        arrayResultados.push({[temp[1]] : temp[2]}); // aqui empurra um obj em que se tem o grupo 1 e 2 da regex (que queriamos) | PS: a chave do está entre "[]" pois só assim que o JS entenderá que queremos utilizar isso como sua chave
+    }
+
+    console.log(arrayResultados);
 }
 
 extrairLinks(texto);

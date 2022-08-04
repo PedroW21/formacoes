@@ -6,7 +6,7 @@ const texto = "A interface File provê informações sobre arquivos e permite ao
 function extrairLinks(texto)
 {
     const regex = /\[([^\]]*)\]\((https?:\/\/[^$#\s].[^\s]*)\)/gm;
-    const linksExtraidos = texto.match(regex); // retorna um array com os elementos encontrados pela regex | PS: Metodo de string, não de regex
+    const linksExtraidos = regex.exec(texto); // metodo realmente de expressão regular - diferente do match que era um metodo para strings | OS: Resultado desejado não alcançado, refatoramento a caminho
     console.log(linksExtraidos);
 }
 
