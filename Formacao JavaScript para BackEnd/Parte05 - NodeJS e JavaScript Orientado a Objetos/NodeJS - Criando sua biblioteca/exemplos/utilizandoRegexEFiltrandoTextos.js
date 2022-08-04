@@ -10,19 +10,4 @@ function extrairLinks(texto)
     console.log(linksExtraidos);
 }
 
-function tratarErro(erro)
-{
-    throw new Error(chalk.red(erro.code, "Arquivo não existe/não encontrado no diretorio"));
-}
-
-async function pegarArquivo(caminhoDoArquivo)
-{
-    const encoding = "utf-8";
-    
-}
-
-let filePath = "./arquivos/texto.md";
-
-//pegarArquivo(filePath);
-
 extrairLinks(texto);
