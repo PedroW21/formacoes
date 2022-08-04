@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import fs from 'fs'; // ESM - ECMAScript module type | fs = file system
+import fs from 'fs'; 
 
 function tratarErro(erro)
 {
@@ -17,6 +17,10 @@ async function pegarArquivo(caminhoDoArquivo)
     catch(erro) 
     {
         tratarErro(erro);
+    }
+    finally
+    {
+        console.log(chalk.yellow("\nOperação finalizada!\n"));
     }
     
 }
