@@ -1,11 +1,13 @@
 import chalk from 'chalk';
+import fs from 'fs'; // ESM - ECMAScript module type | fs = file system
 
-console.log(chalk.blue("Começando! Olá mundo! :D"));
+function pegarArquivo(caminhoDoArquivo)
+{
+    const encoding = "utf-8";
 
-console.log(`
-CPU: ${chalk.hex("#FF4500")("86%")} usage!
-RAM: ${chalk.blue("34%")} usage!
-GPU: ${chalk.rgb(91, 10, 145).bold("96%")} usage! ${chalk.hex("#E3CE12").bold("Are you crazy??")}
-`);
+    fs.readFile(caminhoDoArquivo, encoding, (_, texto) => { // ignorando o erro por enquanto
+        console.log(chalk.yellow(texto));
+    });
+}
 
-
+pegarArquivo("./arquivos/texto1.md");
