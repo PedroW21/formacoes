@@ -9,10 +9,10 @@ function tratarErro(erro)
 async function pegarArquivo(caminhoDoArquivo)
 {
     const encoding = "utf-8";
-    try 
+    try // o que quero que tenha sucesso
     {
         const texto = await fs.promises.readFile(caminhoDoArquivo, encoding);
-        console.log(chalk.green(texto));  
+        console.log(chalk.green(texto));   
     }
     catch(erro) 
     {
