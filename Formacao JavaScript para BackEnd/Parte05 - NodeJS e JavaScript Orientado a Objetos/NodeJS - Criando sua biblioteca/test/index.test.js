@@ -16,4 +16,8 @@ describe("pegaArquivo::", () => {
         expect(resultado).toEqual(arrayResult); // compara uma estrutura de dados
     });
 
+    it("deve retornar mensagem 'não há links'", async () => {
+        const resultado = await pegarArquivo("C:/Users/Pedro Verner/Desktop/Formacoes e Bootcamps/formacoes/Formacao JavaScript para BackEnd/Parte05 - NodeJS e JavaScript Orientado a Objetos/NodeJS - Criando sua biblioteca/test/arquivos/texto-semLink.md");
+        expect(resultado).toBe("Não há links");
+    });
  });
