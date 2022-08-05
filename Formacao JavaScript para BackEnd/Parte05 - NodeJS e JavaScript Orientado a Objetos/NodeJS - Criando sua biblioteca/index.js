@@ -1,4 +1,3 @@
-import chalk from 'chalk';
 import fs from 'fs'; 
 
 function extrairLinks(texto)
@@ -18,7 +17,7 @@ function extrairLinks(texto)
 
 function tratarErro(erro)
 {
-    throw new Error(chalk.red(erro.code, "Arquivo não existe/não encontrado no diretorio"));
+    throw new Error(erro.code, "Arquivo não existe/não encontrado no diretorio");
 }
 
 async function pegarArquivo(caminhoDoArquivo)
