@@ -36,6 +36,8 @@ async function pegarArquivo(caminhoDoArquivo)
     
 }
 
-let filePath = "./arquivos/texto1.md";
+//let filePath = "./arquivos/texto1.md";
 
-pegarArquivo(filePath);
+//pegarArquivo(filePath);
+
+export default pegarArquivo;
