@@ -13,7 +13,7 @@ function extrairLinks(texto)
         arrayResultados.push({[temp[1]] : temp[2]}); // aqui empurra um obj em que se tem o grupo 1 e 2 da regex (que queriamos) | PS: a chave do está entre "[]" pois só assim que o JS entenderá que queremos utilizar isso como sua chave
     }
 
-    return arrayResultados;
+    return arrayResultados.length === 0  ? "Não há links" : arrayResultados;
 }
 
 function tratarErro(erro)
@@ -27,7 +27,7 @@ async function pegarArquivo(caminhoDoArquivo)
     try
     {
         const texto = await fs.promises.readFile(caminhoDoArquivo, encoding);
-        console.log(extrairLinks(texto));   
+        return extrairLinks(texto)   
     }
     catch(erro) 
     {
