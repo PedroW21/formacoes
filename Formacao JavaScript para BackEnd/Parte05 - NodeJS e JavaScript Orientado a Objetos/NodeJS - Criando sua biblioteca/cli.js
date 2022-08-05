@@ -10,7 +10,7 @@ async function processarTexto(caminhoDoArquivo)
 
     if(caminhoDoArquivo[3] === "validar") 
     {
-        console.log(chalk.yellow("Links Validados"), validarURLs(resultado));
+        console.log(chalk.yellow("Links Validados"), await validarURLs(resultado));
     }
     else 
     {
