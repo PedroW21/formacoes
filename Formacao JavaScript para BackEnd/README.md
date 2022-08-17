@@ -1,2 +1,2 @@
-# Formação "JavaScript para BackEnd" 🧑‍🚀
-Este repositorio conterá todos os conhecimentos adiquiridos na formação
+# Formações Alura / DIO
+Este repositorio conterá todos os conhecimentos adiquiridos nas formações realizadas nas plataformas acima.
