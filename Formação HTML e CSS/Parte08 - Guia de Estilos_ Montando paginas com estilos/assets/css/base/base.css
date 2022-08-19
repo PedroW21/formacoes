@@ -1,0 +1,48 @@
+/*Boa pratica colocar o _, fica subentendido que ele não é importado direto no HTML, mas é importado em algum lugar*/
+
+@import url(_reset.css);
+@import url(_variaveis.css); 
+
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap');
+
+body{
+    background: url(../../img/background-texture.png), url(../../img/background-lines.png);
+    background-position: center;
+
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    color: var(--gray);
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+/* Titulo */
+
+.title {
+    font-size: var(--font-title-size);
+}
+
+.title--destaque {
+    font-family: var(--font-title);
+    color: var(--black);
+    font-size: var(--font-title-destaque-size);
+    font-weight: var(--font-title-weight);
+
+    display: block;
+
+    margin: .75rem 0;
+}
+
+.align--left {
+    text-align: left;
+}
+
+.align--center {
+    text-align: center;
+}
+
+.text {
+    line-height: 26px; /* Distanciamento entre linhas*/
+}

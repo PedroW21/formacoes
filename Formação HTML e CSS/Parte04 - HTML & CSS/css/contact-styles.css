@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(#fefefe, #888888);
+}
+
+
+/*Começo do Cabeçalho*/
+
+.cabecalho {
+  background-color: #d3d3d3;
+  padding: 20px;
+}
+
+.navbar-header {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+/*Fim do Cabeçalho*/
+
+
+footer {
+  text-align: center;
+  background: url("../img/bg2.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+    
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.send-form {
+    width: 40%;
+    padding: 15px 0;
+    background: #FFA500;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.send-form:hover {
+    background: #FF8C00;
+    transition: 1s all;
+    cursor: pointer;
+
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px; 
+}
+
+main {
+    position: relative;
+}
+
+.tabela {
+    position: absolute;
+    top: 0;
+    right: 5%;
+}

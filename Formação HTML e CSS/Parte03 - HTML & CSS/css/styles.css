@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  background-color: #d3d3d3;
+  padding: 20px;
+}
+
+.navbar-header {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+  
+}
+
+nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+#banner {
+  width: 100%;
+}
+
+.about-us, .our-services {
+  text-align: center;
+}
+
+.about-us {
+  background-color: #d3d3d3;
+  padding: 30px;
+}
+
+#missao {
+  color: #ff5733;
+  font-size: 1.25rem;
+}
+
+.our-services {
+  padding: 20px;
+}
+
+.itens-our-differentials {
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+#image-benefits {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background: url("../img/bg2.jpg");
+  padding: 40px 0;
+
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+  
+}

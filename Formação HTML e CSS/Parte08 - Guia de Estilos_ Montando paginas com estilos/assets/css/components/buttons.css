@@ -1,0 +1,23 @@
+.button {
+    background-color: var(--yellow);
+    align-items: center;
+    font-family: inherit; /*Herda a fonte do body*/
+    font-weight: var(--button-weight);
+    color: var(--white);
+
+    width: 100%;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+
+    box-shadow: 10px 10px 30px var(--yellow-shadow);
+
+    border: none;
+}
+
+.button--alternative {
+    color: var(--yellow);
+    background-color: unset;
+    box-shadow: none;
+
+    border: 1px solid var(--yellow);
+}
