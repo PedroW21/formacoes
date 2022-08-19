@@ -1,0 +1,15 @@
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\bin\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.exe
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\bin\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.deps.json
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\bin\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.runtimeconfig.json
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\bin\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\bin\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.pdb
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.csproj.AssemblyReference.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.AssemblyInfoInputs.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.AssemblyInfo.cs
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\refint\P12-CalculaInvestimentoLongoPrazo.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.pdb
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\P12-CalculaInvestimentoLongoPrazo.genruntimeconfig.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P12-CalculaInvestimentoLongoPrazo\obj\Debug\net6.0\ref\P12-CalculaInvestimentoLongoPrazo.dll

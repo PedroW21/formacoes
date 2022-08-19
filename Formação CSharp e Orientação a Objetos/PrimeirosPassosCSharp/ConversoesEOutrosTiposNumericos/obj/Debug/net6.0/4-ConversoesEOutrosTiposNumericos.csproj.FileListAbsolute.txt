@@ -1,0 +1,15 @@
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\bin\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.exe
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\bin\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.deps.json
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\bin\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.runtimeconfig.json
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\bin\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\bin\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.pdb
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.csproj.AssemblyReference.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.AssemblyInfoInputs.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.AssemblyInfo.cs
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\refint\4-ConversoesEOutrosTiposNumericos.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.pdb
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\4-ConversoesEOutrosTiposNumericos.genruntimeconfig.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\ConversoesEOutrosTiposNumericos\obj\Debug\net6.0\ref\4-ConversoesEOutrosTiposNumericos.dll

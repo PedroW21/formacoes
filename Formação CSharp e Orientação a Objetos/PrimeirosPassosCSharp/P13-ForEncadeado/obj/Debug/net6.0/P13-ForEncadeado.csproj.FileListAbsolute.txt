@@ -1,0 +1,15 @@
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\bin\Debug\net6.0\P13-ForEncadeado.exe
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\bin\Debug\net6.0\P13-ForEncadeado.deps.json
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\bin\Debug\net6.0\P13-ForEncadeado.runtimeconfig.json
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\bin\Debug\net6.0\P13-ForEncadeado.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\bin\Debug\net6.0\P13-ForEncadeado.pdb
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.csproj.AssemblyReference.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.AssemblyInfoInputs.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.AssemblyInfo.cs
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\refint\P13-ForEncadeado.dll
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.pdb
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\P13-ForEncadeado.genruntimeconfig.cache
+C:\Users\Pedro Verner\Desktop\Alura\formacao-csharp-alura\PrimeirosPassosCSharp\P13-ForEncadeado\obj\Debug\net6.0\ref\P13-ForEncadeado.dll
