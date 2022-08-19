@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ByteBankV6Sub1/1.0.0": {
+        "dependencies": {
+          "ByteBankV6": "1.0.0"
+        },
+        "runtime": {
+          "ByteBankV6Sub1.dll": {}
+        }
+      },
+      "ByteBankV6/1.0.0": {
+        "runtime": {
+          "ByteBankV6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ByteBankV6Sub1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ByteBankV6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
