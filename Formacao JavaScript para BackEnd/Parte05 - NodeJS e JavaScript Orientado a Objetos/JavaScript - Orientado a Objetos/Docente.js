@@ -11,6 +11,11 @@ class Docente extends User
     {
         return `Estudante ${estudante} aprovado(a) no curso ${curso}.`;
     }
+
+    exibirInfos()
+    {
+        return `${this.nome} | ${this.email} |  ${this.role} | ${this.ativo}`;
+    }
 }
 
 export default Docente;
