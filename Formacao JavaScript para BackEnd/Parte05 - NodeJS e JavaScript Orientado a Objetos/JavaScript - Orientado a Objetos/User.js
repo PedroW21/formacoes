@@ -39,6 +39,12 @@ class User
         return this.#ativo;
     }
 
+    set nome(novoNome)
+    {
+        if(novoNome == " ") throw new Error("Nome vazio não é permitido! Insira um nome que não seja vazio");
+        this.#nome = novoNome;
+    }
+
     // Deletei o metodo privado pq era so para exemplificar
 
     exibirInfos()

@@ -6,9 +6,15 @@ import Docente from "./Docente.js";
 // console.log(novoUser.exibirInfos());
 
 const novoAdmin = new Admin("Clebin", "c@c.com", "1998-06-08");
-console.log(novoAdmin.nome);
+console.log(novoAdmin.nome); // sitnaxe para chamar com o getter (parece que estamos acessando a propriedade direto, mas estamos é usando o getter)
+novoAdmin.nome = "Ricardão";
+console.log(novoAdmin.nome); // mesma coisa do getter, parece que estamos acessando direto a propriedade e trocando, mas estamos usando o setter
 
-const novoDocente = new Docente("Popeye", "popeye@espinafre.com", "1929-01-17");
+//testando o setter no erro
+
+//novoAdmin.nome = " ";
+//console.log(novoAdmin.nome); 
+//const novoDocente = new Docente("Popeye", "popeye@espinafre.com", "1929-01-17");
 
 
 function criarCursoAdm()
@@ -23,10 +29,5 @@ function aprovarEstudanteDocente()
     console.log(novoDocente.exibirInfos());
     console.log(novoDocente.aprovarEstudante("Olivia Palito", "Espinafrar"));
 }
-
-
-
-
-
 
 
