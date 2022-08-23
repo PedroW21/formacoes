@@ -14,12 +14,22 @@ class User
         this.#ativo = ativo;
     }
 
+    #montaObjUser()
+    {
+        return ({
+            nome: this.#nome,
+            email: this.#email,
+            nasc: this.#nasc,
+            role: this.#role,
+            ativo: this.#ativo
+        })
+    }
+
     exibirInfos()
     {
-        return `${this.#nome} | ${this.#email}`;
+        const objUser = this.#montaObjUser();
+        return `${objUser.nome} | ${objUser.email} | ${objUser.nasc} | ${objUser.role} | ${objUser.ativo}`;
     }
 }
-
-const novoUser = new User("Fabin", "f@f.com", "2000-01-12");
 
 export default User;
