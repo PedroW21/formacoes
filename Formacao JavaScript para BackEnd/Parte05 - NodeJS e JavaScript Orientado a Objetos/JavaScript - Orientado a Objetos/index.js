@@ -2,13 +2,16 @@ import User from "./User.js";
 import Admin from "./Admin - Heranca.js";
 import Docente from "./Docente.js";
 
-// const novoUser = new User("Fabin", "f@f.com", "2000-01-12");
-// console.log(novoUser.exibirInfos());
+const novoUser = new User("Fabin","Da Vila", "f@f.com", "2000-01-12");
+//console.log(novoUser.exibirInfos());
+console.log(novoUser.nome);
+novoUser.nome = "Fabin Carlao Da Vila";
+console.log(novoUser.sobrenome);
 
-const novoAdmin = new Admin("Clebin", "c@c.com", "1998-06-08");
-console.log(novoAdmin.nome); // sitnaxe para chamar com o getter (parece que estamos acessando a propriedade direto, mas estamos é usando o getter)
-novoAdmin.nome = "Ricardão";
-console.log(novoAdmin.nome); // mesma coisa do getter, parece que estamos acessando direto a propriedade e trocando, mas estamos usando o setter
+//const novoAdmin = new Admin("Clebin", "c@c.com", "1998-06-08");
+//console.log(novoAdmin.nome); // sitnaxe para chamar com o getter (parece que estamos acessando a propriedade direto, mas estamos é usando o getter)
+//novoAdmin.nome = "Ricardão";
+//console.log(novoAdmin.nome); // mesma coisa do getter, parece que estamos acessando direto a propriedade e trocando, mas estamos usando o setter
 
 //testando o setter no erro
 

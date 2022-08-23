@@ -1,13 +1,15 @@
 class User
 {
     #nome  // declaração de uma propriedade que deve ser privada
+    #sobrenome
     #email
     #nasc
     #role
     #ativo
-    constructor(nome, email, nasc, role, ativo = true)
+    constructor(nome, sobrenome, email, nasc, role, ativo = true)
     {
         this.#nome = nome;
+        this.#sobrenome = sobrenome;
         this.#email = email;
         this.#nasc = nasc;
         this.#role = role || "estudante";
@@ -17,6 +19,11 @@ class User
     get nome()
     {
         return this.#nome;
+    }
+
+    get sobrenome()
+    {
+        return this.#sobrenome;
     }
 
     get email()
@@ -42,14 +49,19 @@ class User
     set nome(novoNome)
     {
         if(novoNome == " ") throw new Error("Nome vazio não é permitido! Insira um nome que não seja vazio");
+
+        let [nome, ...sobrenome] = novoNome.split(" ");
+        sobrenome = sobrenome.join(" ");
+
         this.#nome = novoNome;
+        this.#sobrenome = sobrenome;
     }
 
     // Deletei o metodo privado pq era so para exemplificar
 
     exibirInfos()
     {
-        return `${objUser.nome} | ${objUser.email} | ${objUser.nasc} | ${objUser.role} | ${objUser.ativo}`;
+        return `${this.nome} | ${this.email} | ${this.nasc} | ${this.role} | ${this.ativo}`; // estamos utilizando os getters aqui
     }
 }
 
