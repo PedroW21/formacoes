@@ -13,21 +13,36 @@ class User
         this.#role = role || "estudante";
         this.#ativo = ativo;
     }
-
-    #montaObjUser()
+    // boas praticas de OO - SOLID / É necessário essa cacetada de get (por causa do Principio da Responsabilidade Unica)
+    get nome()
     {
-        return ({
-            nome: this.#nome,
-            email: this.#email,
-            nasc: this.#nasc,
-            role: this.#role,
-            ativo: this.#ativo
-        })
+        return this.#nome;
     }
+
+    get email()
+    {
+        return this.#email;
+    }
+
+    get nasc()
+    {
+        return this.#nasc;
+    }
+
+    get role()
+    {
+        return this.#role;
+    }
+
+    get ativo()
+    {
+        return this.#ativo;
+    }
+
+    // Deletei o metodo privado pq era so para exemplificar
 
     exibirInfos()
     {
-        const objUser = this.#montaObjUser();
         return `${objUser.nome} | ${objUser.email} | ${objUser.nasc} | ${objUser.role} | ${objUser.ativo}`;
     }
 }

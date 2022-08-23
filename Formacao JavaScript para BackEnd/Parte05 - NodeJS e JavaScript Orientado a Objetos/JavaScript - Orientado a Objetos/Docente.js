@@ -13,10 +13,4 @@ class Docente extends User
     }
 }
 
-const novoDocente = new Docente("Popeye", "popeye@espinafre.com", "1929-01-17");
-
-// console.log(novoDocente);
-// console.log(novoDocente.exibirInfos());
-// console.log(novoDocente.aprovarEstudante("Olivia Palito", "Espinafrar"));
-
 export default Docente;

@@ -13,9 +13,4 @@ class Admin extends User
     }
 }
 
-const novoAdmin = new Admin("Clebin", "c@c.com", "1998-06-08");
-//console.log(novoAdmin.criarCurso("Unity", 100));
-//console.log(novoAdmin);
-//console.log(novoAdmin.exibirInfos());
-
 export default Admin;
